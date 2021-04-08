@@ -1,1 +1,1 @@
-(progn (ql:quickload #:%ApplicationName%) (in-package #:%ApplicationName%))
+(progn (ql:quickload #:template-test) (in-package #:template-test))

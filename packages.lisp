@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
-(defpackage #:%ApplicationName%
+(defpackage #:template-test
   (:use #:cl))
