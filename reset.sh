@@ -5,3 +5,7 @@
 shopt -s extglob
 rm !(.git|reset.sh)
 rm .gitignore
+
+# Copy over files from the project template.
+cp ../common-lisp-project-template/!(.git) .
+cp ../common-lisp-project-template/.gitignore .
